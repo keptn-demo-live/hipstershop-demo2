@@ -1,0 +1,16 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  creationTimestamp: null
+  name: paymentservice
+spec:
+  gateways:
+  - public-gateway.istio-system
+  - mesh
+  hosts:
+  - paymentservice.hipstershop-prod.demo2.keptn.live.demo.dynatrace.com
+  - paymentservice
+  http:
+  - route:
+    - destination:
+        host: paymentservice.hipstershop-prod.svc.cluster.local
