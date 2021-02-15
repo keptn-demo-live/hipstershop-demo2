@@ -1,0 +1,7 @@
+stages:
+  - name: "staging"
+    test_strategy: "performance"
+    deployment_strategy: "blue_green_service"
+  - name: "prod"
+    deployment_strategy: "blue_green_service"
+    remediation_strategy: "automated"
