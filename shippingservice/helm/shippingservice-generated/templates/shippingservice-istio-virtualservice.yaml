@@ -1,0 +1,16 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  creationTimestamp: null
+  name: shippingservice
+spec:
+  gateways:
+  - public-gateway.istio-system
+  - mesh
+  hosts:
+  - shippingservice.hipstershop-prod.demo2.keptn.live.demo.dynatrace.com
+  - shippingservice
+  http:
+  - route:
+    - destination:
+        host: shippingservice.hipstershop-prod.svc.cluster.local
