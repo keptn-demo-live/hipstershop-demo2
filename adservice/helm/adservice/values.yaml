@@ -1,0 +1,2 @@
+image: gcr.io/dynatrace-demoability/adservice:jdk11
+replicaCount: 1
