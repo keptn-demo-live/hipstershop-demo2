@@ -1,0 +1,2 @@
+image: gcr.io/dynatrace-demoability/frontend:v2.1
+replicaCount: 1
