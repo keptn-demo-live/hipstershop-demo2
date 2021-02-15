@@ -1,0 +1,16 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  creationTimestamp: null
+  name: emailservice
+spec:
+  gateways:
+  - public-gateway.istio-system
+  - mesh
+  hosts:
+  - emailservice.hipstershop-staging.demo2.keptn.live.demo.dynatrace.com
+  - emailservice
+  http:
+  - route:
+    - destination:
+        host: emailservice.hipstershop-staging.svc.cluster.local
