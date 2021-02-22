@@ -1,6 +1,6 @@
 stages:
   - name: "staging"
-    test_strategy: "performance"
+    test_strategy: "performance_light"
     deployment_strategy: "blue_green_service"
   - name: "prod"
     deployment_strategy: "blue_green_service"
