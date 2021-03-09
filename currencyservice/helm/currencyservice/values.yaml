@@ -1,0 +1,2 @@
+image: gcr.io/dynatrace-demoability/currencyservice:9e830c2
+replicaCount: 1
