@@ -1,2 +1,0 @@
-image: gcr.io/dynatrace-demoability/shippingservice:9e830c2
-replicaCount: 1
