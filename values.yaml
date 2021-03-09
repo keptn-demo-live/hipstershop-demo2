@@ -22,6 +22,8 @@ frontend:
   enabled: false
 frontend-generated:
   enabled: false
+loadgenerator:
+  enabled: false
 paymentservice:
   enabled: false
 paymentservice-generated:
