@@ -1,0 +1,4 @@
+apiVersion: v1
+description: A Helm chart for checkout service
+name: checkoutservice
+version: 0.1.0
