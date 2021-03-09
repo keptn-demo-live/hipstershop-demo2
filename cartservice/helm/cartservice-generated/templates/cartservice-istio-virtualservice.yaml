@@ -1,0 +1,16 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  creationTimestamp: null
+  name: cartservice
+spec:
+  gateways:
+  - public-gateway.istio-system
+  - mesh
+  hosts:
+  - cartservice.hipstershop-staging.demo2.keptn.live.demo.dynatrace.com
+  - cartservice
+  http:
+  - route:
+    - destination:
+        host: cartservice.hipstershop-staging.svc.cluster.local
