@@ -1,0 +1,2 @@
+image: gcr.io/dynatrace-demoability/cartservice:9e830c2
+replicaCount: 1
