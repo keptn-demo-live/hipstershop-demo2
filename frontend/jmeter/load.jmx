@@ -14,7 +14,7 @@
           </elementProp>
           <elementProp name="SERVER_URL" elementType="Argument">
             <stringProp name="Argument.name">SERVER_URL</stringProp>
-            <stringProp name="Argument.value">${__P(SERVER_URL,http://frontend.hipstershop-staging.keptn.live.demo.dynatrace.com)}</stringProp>
+            <stringProp name="Argument.value">${__P(SERVER_URL,http://frontend.hipstershop-staging.demo2.keptn.live.demo.dynatrace.com)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="VUCount" elementType="Argument">
@@ -180,7 +180,7 @@ sampler.getHeaderManager().add(new org.apache.jmeter.protocol.http.control.Heade
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.keptn.live.demo.dynatrace.com</stringProp>
+          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.demo2.keptn.live.demo.dynatrace.com</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -222,7 +222,7 @@ print(&quot;sessionId: &quot; + vars.get(&quot;sessionId&quot;));</stringProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.keptn.live.demo.dynatrace.com</stringProp>
+          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.demo2.keptn.live.demo.dynatrace.com</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -261,7 +261,7 @@ print(&quot;sessionId: &quot; + vars.get(&quot;sessionId&quot;));</stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.keptn.live.demo.dynatrace.com</stringProp>
+          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.demo2.keptn.live.demo.dynatrace.com</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -286,7 +286,7 @@ print(&quot;sessionId: &quot; + vars.get(&quot;sessionId&quot;));</stringProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.keptn.live.demo.dynatrace.com</stringProp>
+          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.demo2.keptn.live.demo.dynatrace.com</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -310,7 +310,7 @@ print(&quot;sessionId: &quot; + vars.get(&quot;sessionId&quot;));</stringProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.keptn.live.demo.dynatrace.com</stringProp>
+          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.demo2.keptn.live.demo.dynatrace.com</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -335,7 +335,7 @@ print(&quot;sessionId: &quot; + vars.get(&quot;sessionId&quot;));</stringProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.keptn.live.demo.dynatrace.com</stringProp>
+          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.demo2.keptn.live.demo.dynatrace.com</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -374,7 +374,7 @@ print(&quot;sessionId: &quot; + vars.get(&quot;sessionId&quot;));</stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.keptn.live.demo.dynatrace.com</stringProp>
+          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.demo2.keptn.live.demo.dynatrace.com</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -407,7 +407,7 @@ print(&quot;sessionId: &quot; + vars.get(&quot;sessionId&quot;));</stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.keptn.live.demo.dynatrace.com</stringProp>
+          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.demo2.keptn.live.demo.dynatrace.com</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -432,7 +432,7 @@ print(&quot;sessionId: &quot; + vars.get(&quot;sessionId&quot;));</stringProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.keptn.live.demo.dynatrace.com</stringProp>
+          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.demo2.keptn.live.demo.dynatrace.com</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -527,7 +527,7 @@ print(&quot;sessionId: &quot; + vars.get(&quot;sessionId&quot;));</stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.keptn.live.demo.dynatrace.com</stringProp>
+          <stringProp name="HTTPSampler.domain">frontend.hipstershop-staging.demo2.keptn.live.demo.dynatrace.com</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
