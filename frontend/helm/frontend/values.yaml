@@ -1,2 +1,2 @@
-image: gcr.io/dynatrace-demoability/frontend:v1.6
+image: gcr.io/dynatrace-demoability/frontend:v2.2
 replicaCount: 1
