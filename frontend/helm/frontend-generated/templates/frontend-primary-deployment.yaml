@@ -18,7 +18,7 @@ spec:
         app.kubernetes.io/managed-by: Helm
         app.kubernetes.io/name: frontend-primary
         app.kubernetes.io/part-of: keptn-hipstershop-staging
-        app.kubernetes.io/version: v1.1
+        app.kubernetes.io/version: v2.2
     spec:
       containers:
       - env:
@@ -41,7 +41,7 @@ spec:
         - name: DT_CUSTOM_PROP
           value: keptn_project=hipstershop keptn_service=frontend keptn_stage=staging
             keptn_deployment=primary
-        image: gcr.io/dynatrace-demoability/frontend:v1.1
+        image: gcr.io/dynatrace-demoability/frontend:v2.2
         livenessProbe:
           httpGet:
             httpHeaders:
